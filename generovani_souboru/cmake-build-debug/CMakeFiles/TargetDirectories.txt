@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/cteni_souboru/cmake-build-debug/CMakeFiles/cteni_souboru.dir
+C:/studenti/IT1JirkaGebauer/cteni_souboru/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/cteni_souboru/cmake-build-debug/CMakeFiles/rebuild_cache.dir
