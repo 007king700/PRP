@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\voda_v_nadobe.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\voda_v_nadobe.dir/objects.a @CMakeFiles\voda_v_nadobe.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\voda_v_nadobe.dir/objects.a -Wl,--no-whole-archive -o voda_v_nadobe.exe -Wl,--out-implib,libvoda_v_nadobe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\voda_v_nadobe.dir\linklibs.rsp
