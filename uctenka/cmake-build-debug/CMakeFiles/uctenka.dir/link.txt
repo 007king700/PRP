@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\uctenka.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\uctenka.dir/objects.a @CMakeFiles\uctenka.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\uctenka.dir/objects.a -Wl,--no-whole-archive -o uctenka.exe -Wl,--out-implib,libuctenka.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\uctenka.dir\linklibs.rsp

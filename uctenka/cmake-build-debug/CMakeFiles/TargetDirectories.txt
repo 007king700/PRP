@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/uctenka/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/uctenka/cmake-build-debug/CMakeFiles/uctenka.dir
+C:/studenti/IT1JirkaGebauer/uctenka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
