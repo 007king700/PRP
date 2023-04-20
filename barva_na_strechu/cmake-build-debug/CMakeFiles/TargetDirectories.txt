@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/barva_na_strechu/cmake-build-debug/CMakeFiles/barva_na_strechu.dir
+C:/studenti/IT1JirkaGebauer/barva_na_strechu/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/barva_na_strechu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
