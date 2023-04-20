@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/scitani_zlomku/cmake-build-debug/CMakeFiles/scitani_zlomku.dir
+C:/studenti/IT1JirkaGebauer/scitani_zlomku/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/scitani_zlomku/cmake-build-debug/CMakeFiles/rebuild_cache.dir

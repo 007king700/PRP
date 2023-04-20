@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/nejvetsi_spol_delitel/cmake-build-debug/CMakeFiles/nejvetsi_spol_delitel.dir
+C:/studenti/IT1JirkaGebauer/nejvetsi_spol_delitel/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/nejvetsi_spol_delitel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
