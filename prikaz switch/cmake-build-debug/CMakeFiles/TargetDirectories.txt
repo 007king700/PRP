@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/prikaz switch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/studenti/IT1JirkaGebauer/prikaz switch/cmake-build-debug/CMakeFiles/prikaz_switch.dir
+C:/studenti/IT1JirkaGebauer/prikaz switch/cmake-build-debug/CMakeFiles/edit_cache.dir

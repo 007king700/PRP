@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/studenti/IT1JirkaGebauer/ruska_ruleta/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+

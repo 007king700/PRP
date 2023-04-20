@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\prikaz_switch.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\prikaz_switch.dir/objects.a @CMakeFiles\prikaz_switch.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\prikaz_switch.dir/objects.a -Wl,--no-whole-archive -o prikaz_switch.exe -Wl,--out-implib,libprikaz_switch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\prikaz_switch.dir\linklibs.rsp
