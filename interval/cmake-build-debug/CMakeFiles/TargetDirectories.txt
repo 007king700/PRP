@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/interval/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/interval/cmake-build-debug/CMakeFiles/interval.dir
+C:/studenti/IT1JirkaGebauer/interval/cmake-build-debug/CMakeFiles/rebuild_cache.dir

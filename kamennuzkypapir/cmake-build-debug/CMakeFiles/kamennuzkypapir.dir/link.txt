@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\kamennuzkypapir.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\kamennuzkypapir.dir/objects.a @CMakeFiles\kamennuzkypapir.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\kamennuzkypapir.dir/objects.a -Wl,--no-whole-archive -o kamennuzkypapir.exe -Wl,--out-implib,libkamennuzkypapir.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kamennuzkypapir.dir\linklibs.rsp
