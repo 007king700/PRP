@@ -1,3 +1,0 @@
-C:/studenti/IT1JirkaGebauer/praktickaProverkaZadaniA/code/cmake-build-debug/CMakeFiles/code.dir
-C:/studenti/IT1JirkaGebauer/praktickaProverkaZadaniA/code/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/studenti/IT1JirkaGebauer/praktickaProverkaZadaniA/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
