@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/strany_trojuhelniku/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/studenti/IT1JirkaGebauer/strany_trojuhelniku/cmake-build-debug/CMakeFiles/strany_trojuhelniku.dir
+C:/studenti/IT1JirkaGebauer/strany_trojuhelniku/cmake-build-debug/CMakeFiles/edit_cache.dir
