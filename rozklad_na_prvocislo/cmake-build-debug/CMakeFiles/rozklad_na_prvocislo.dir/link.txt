@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\rozklad_na_prvocislo.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\rozklad_na_prvocislo.dir/objects.a @CMakeFiles\rozklad_na_prvocislo.dir\objects1.rsp
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\rozklad_na_prvocislo.dir/objects.a -Wl,--no-whole-archive -o rozklad_na_prvocislo.exe -Wl,--out-implib,librozklad_na_prvocislo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rozklad_na_prvocislo.dir\linklibs.rsp
