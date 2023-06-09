@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/CMakeFiles/Parkoviste.dir
+C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/CMakeFiles/rebuild_cache.dir

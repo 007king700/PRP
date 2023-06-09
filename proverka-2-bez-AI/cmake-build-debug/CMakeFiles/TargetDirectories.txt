@@ -1,0 +1,3 @@
+C:/studenti/IT1JirkaGebauer/proverka-2-bez-AI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/studenti/IT1JirkaGebauer/proverka-2-bez-AI/cmake-build-debug/CMakeFiles/proverka_2_bez_AI.dir
+C:/studenti/IT1JirkaGebauer/proverka-2-bez-AI/cmake-build-debug/CMakeFiles/edit_cache.dir
