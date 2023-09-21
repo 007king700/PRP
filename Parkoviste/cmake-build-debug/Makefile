@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\studenti\IT1JirkaGebauer\Parkoviste
+CMAKE_SOURCE_DIR = "F:\student\it2\Gebauer\PRP - IT1\Parkoviste"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\studenti\IT1JirkaGebauer\Parkoviste\cmake-build-debug
+CMAKE_BINARY_DIR = "F:\student\it2\Gebauer\PRP - IT1\Parkoviste\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\studenti\IT1JirkaGebauer\Parkoviste\cmake-build-debug\CMakeFiles C:\studenti\IT1JirkaGebauer\Parkoviste\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\student\it2\Gebauer\PRP - IT1\Parkoviste\cmake-build-debug\CMakeFiles" "F:\student\it2\Gebauer\PRP - IT1\Parkoviste\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\studenti\IT1JirkaGebauer\Parkoviste\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\student\it2\Gebauer\PRP - IT1\Parkoviste\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

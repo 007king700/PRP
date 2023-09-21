@@ -8,76 +8,76 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug"/>
+				<Option working_dir="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Parkoviste">
-				<Option output="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Parkoviste.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug"/>
+				<Option output="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Parkoviste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 Parkoviste"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 Parkoviste"/>
+					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Parkoviste/fast">
-				<Option output="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Parkoviste.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug"/>
+				<Option output="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Parkoviste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 Parkoviste/fast"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 Parkoviste/fast"/>
+					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug"/>
+				<Option working_dir="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug"/>
+				<Option working_dir="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/studenti/IT1JirkaGebauer/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/mingw64/bin/mingw32-make.exe -f &quot;F:/student/it2/Gebauer/PRP - IT1/Parkoviste/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/studenti/IT1JirkaGebauer/Parkoviste/main.c">
+		<Unit filename="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/main.c">
 			<Option target="Parkoviste"/>
 		</Unit>
-		<Unit filename="C:/studenti/IT1JirkaGebauer/Parkoviste/CMakeLists.txt">
+		<Unit filename="F:/student/it2/Gebauer/PRP - IT1/Parkoviste/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

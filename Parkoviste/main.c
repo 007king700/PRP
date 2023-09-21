@@ -11,8 +11,7 @@ int sekundy(int cash, int casm, int cass) {
 }
 
 int main() {
-    unsigned int vjezdh, vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, povjezdh, povjezdm;
-    unsigned int z = 0, x = 0;
+    unsigned int vjezdh, vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, povjezdh, povjezdm, z = 0, x = 0;
     FILE *vstup = fopen(VSTUP, "r");
     FILE *vystup = fopen(VYSTUP, "w");
     if (vstup == NULL) {
@@ -20,11 +19,11 @@ int main() {
     } else if (vystup == NULL) {
         printf("Soubor %s se nepodarilo otevrit, program bude ukoncen.\n", VSTUP);
     } else {
-        printf("PARKOVISTE\n");
-        printf("--------------------------------------\n");
-        printf("poradi cas     cas      doba parkovani\n");
-        printf("       vjezdu  vyjezdu  sekundy    cas\n");
-        printf("--------------------------------------\n");
+        printf("P A R K O V I S T E\n");
+        printf("----------------------------------------\n");
+        printf("poradi   cas     cas      doba parkovani\n");
+        printf("         vjezdu  vyjezdu  sekundy    cas\n");
+        printf("----------------------------------------\n");
         fprintf(vystup, "Parkoviste - P L A T B Y\n");
         fprintf(vystup, "------------------------\n");
         fprintf(vystup, "pocet hodin parkovani zdarma       : %d\n", HOD_ZDARMA);
@@ -57,38 +56,21 @@ int main() {
             cash = odjezdh - povjezdh;
             z++;
             int zbytek = cash - HOD_ZDARMA;
-            printf("%2d. %02d:%02d:%02d %02d:%02d:%02d  %5d %02d:%02d:%02d\n", x, vjezdh, vjezdm, vjezds, odjezdh,
+            printf("%5d. %02d:%02d:%02d %02d:%02d:%02d  %5d %02d:%02d:%02d\n", z, vjezdh, vjezdm, vjezds, odjezdh,
                    odjezdm, odjezds, sekundy(cash, casm, cass), cash, casm, cass);
-            if (zbytek == 0 && casm > 0) {
+            if (sekundy(cash, casm, cass) > HOD_ZDARMA * 3600) {
                 x++;
-                fprintf(vystup, "%2d. %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %3d Kc\n", x, vjezdh,
-                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass, SAZBA);
-            } else if (zbytek == 0 && cass > 0) {
-                x++;
-                fprintf(vystup, "%2d. %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %3d Kc\n", x, vjezdh,
-                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass, SAZBA);
-            } else if (zbytek > 0 && casm > 0) {
-                x++;
-                fprintf(vystup, "%2d. %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %3d Kc\n", x, vjezdh,
-                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass,
-                        (zbytek * SAZBA) + SAZBA);
-            } else if (zbytek > 0 && cass > 0) {
-                x++;
-                fprintf(vystup, "%2d. %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %3d Kc\n", x, vjezdh,
-                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass,
-                        (zbytek * SAZBA) + SAZBA);
-            } else if (zbytek > 0) {
-                x++;
-                fprintf(vystup, "%2d. %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %02d:%02d:%02d %3d Kc\n", x, vjezdh,
-                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass,
-                        zbytek * SAZBA);
+                fprintf(vystup, "%5d.    %02d:%02d:%02d     %02d:%02d:%02d        %02d:%02d:%02d   %02d:%02d:%02d  %3d Kc\n", x, vjezdh,
+                        vjezdm, vjezds, odjezdh, odjezdm, odjezds, cash, casm, cass, zbytek, casm, cass, (zbytek * SAZBA) + SAZBA);
             }
         }
-        printf("\n");
         if (fclose(vstup) == EOF) {
             printf("Soubor %s se nepodarilo zavrit.\n", VSTUP);
         } else if (fclose(vystup) == EOF) {
             printf("Soubor %s se nepodarilo zavrit.\n", VSTUP);
+        } else{
+            printf("----------------------------------------\n");
+            printf("Byl vytvoren soubor %s\n", VYSTUP);
         }
     }
     return 0;

@@ -1,3 +1,3 @@
 "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Parkoviste.dir/objects.a
-C:\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\Parkoviste.dir/objects.a @CMakeFiles\Parkoviste.dir\objects1.rsp
-C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Parkoviste.dir/objects.a -Wl,--no-whole-archive -o Parkoviste.exe -Wl,--out-implib,libParkoviste.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Parkoviste.dir\linklibs.rsp
+C:\mingw\mingw64\bin\ar.exe cr CMakeFiles\Parkoviste.dir/objects.a @CMakeFiles\Parkoviste.dir\objects1.rsp
+C:\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Parkoviste.dir/objects.a -Wl,--no-whole-archive -o Parkoviste.exe -Wl,--out-implib,libParkoviste.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Parkoviste.dir\linklibs.rsp
