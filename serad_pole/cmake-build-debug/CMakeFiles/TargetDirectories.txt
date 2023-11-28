@@ -1,0 +1,3 @@
+C:/studenti/IT2/P1/serad_pole/cmake-build-debug/CMakeFiles/serad_pole.dir
+C:/studenti/IT2/P1/serad_pole/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/studenti/IT2/P1/serad_pole/cmake-build-debug/CMakeFiles/rebuild_cache.dir

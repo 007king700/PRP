@@ -1,0 +1,3 @@
+"C:\Users\student\AppData\Local\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\pole.dir/objects.a
+C:\mingw-w64\mingw64\bin\ar.exe qc CMakeFiles\pole.dir/objects.a @CMakeFiles\pole.dir\objects1
+C:\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\pole.dir/objects.a -Wl,--no-whole-archive -o pole.exe -Wl,--out-implib,libpole.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pole.dir\linkLibs.rsp
